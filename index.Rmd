@@ -1,0 +1,198 @@
+---
+title: "Beyond physics envy: Toward a databservatory for human behavior"
+author: "Rick O. Gilmore"
+date: "`r Sys.time()`"
+output:
+  revealjs::revealjs_presentation:
+    self_contained: false
+    lib_dir: libs
+    incremental: false
+    theme: serif
+    transition: none
+    reveal_plugins: ["notes", "zoom"]
+    reveal_options:
+      slideNumber: true
+      previewLinks: false
+      center: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+---
+
+<div class="centered">
+<a href="">
+<img src="img/physics-envy.jpg" height=550px>
+</a>
+</div>
+
+<!-- ## Beyond physics envy -->
+
+<!-- <div class="centered"> -->
+<!-- <img src="http://tikalon.com/blog/2016/purity_xkcd_435.png" width=800px/> -->
+<!-- </div> -->
+
+## Psychology is harder than physics
+
+---
+
+<div class="centered">
+<img src="img/psych-harder-1.jpg" width=800px/>
+</div>
+
+---
+
+<div class="centered">
+<img src="img/psych-harder-2.jpg" width=800px/>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=550px>
+</div>
+
+---
+
+<div class="centered">
+<a href="https://en.wikipedia.org/wiki/Hubble_Ultra-Deep_Field">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" height=550px>
+</a>
+</div>
+
+<div class="notes">
+The Hubble Ultra Deep Field. Taken over 3.5 months in 2003-04. Contains an estimated 10,000 galaxies, and because time and space collapse at astronomical distances, looks back ~13 billion years, or 400-800m years after the big bang.
+</div>
+
+
+## What would a data observatory for human behavior look like?
+
+---
+
+<div class="centered">
+<a href="http://www.thehumanproject.org">
+<img src="img/thehumanproject.org.jpg" height=480px>
+</a>
+</div>
+
+<!-- <https://www.nytimes.com/2017/06/04/nyregion/human-project-new-york-city-study.html> -->
+
+## Open Humans
+
+<div class="centered">
+<a href="http://www.openhumans.org">
+<img src="img/openhumans.org.jpg" height=480px>
+</a>
+</div>
+
+## [Neurosynth.org](http://neurosynth.org)
+
+<div class="centered">
+<video width="720" height="450" controls>
+  <source src="mov/neurosynth-happy.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+
+## [Social Data Explorer](http://www.socialexplorer.com/)
+
+<div class="centered">
+<a href="http://www.socialexplorer.com/">
+<div class="centered">
+<img src="img/social-explorer.jpg" height=450px>
+</div>
+</a>
+</div>
+
+## [WordBank](http://wordbank.stanford.edu)
+
+<div class="centered">
+<video width="720" height="450" controls>
+  <source src="mov/wordbank-vocabulary.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+
+## [National Database for Autism Research (NDAR)](https://ndar.nih.gov)
+
+<div class="centered">
+<a href="http://ndar.nih.gov">
+<img src="img/ndar.jpg" height=475px>
+</a>
+</div>
+
+## [Databrary.org](http://databrary.org)
+
+<div class="centered">
+<video width="720" height="450" controls>
+  <source src="mov/databrary-vol-8-nih-incl-rpt.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+
+## Barriers
+
+<div class="centered">
+<img src="http://www.sowoll.com/images/5(3).jpg" height=475px>
+</div>
+
+<!-- --- -->
+
+<!-- <div class="centered"> -->
+<!-- <img src="http://www.apa.org/Images/2014-07-datapoint-chart_tcm7-172806.jpg" width=800px> -->
+<!-- </div> -->
+
+---
+
+<div class="centered">
+<img src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAW9AAAAJDRhMTc5OGYyLWE4MzItNDNlOS1hMDJjLTllOGU2ZTNiNmMzNg.jpg" height=450px>
+</div>
+
+---
+
+<div class="centered">
+<img src="http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg" height=450px>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://www.catholic.com/sites/default/files/styles/full_content_width/public/content/magazine-article-online-edition/main-image/Gollum.jpg" height=550px>
+</div>
+
+---
+
+<div class="centered">
+<img src="img/bricks-mortar.png" height=550px>
+</div>
+
+## Let's build a Databservatory for human behavior
+
+---
+
+<div class="centered">
+<img src="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg" height=500px>
+</div>
+
+## Acknowledgments
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/NSF_Logo.PNG" height=250px>
+<img src="https://science.nichd.nih.gov/confluence/download/attachments/34472103/NICHD-vertical-2-color.png?version=1&modificationDate=1477410070000&api=v2" height=250px>
+
+<div class="notes">
+</div>
+
+## Stack
+
+This talk was produced on `r Sys.Date()` in [RStudio 1.0.143](http://rstudio.com) using R Markdown and the reveal.JS framework.
+The code and materials used to generate the slides may be found at <https://github.com/gilmore-lab/sips-2017-databservatory/>. 
+Information about the R Session that produced the code is as follows:
+
+---
+
+```{r session-info}
+sessionInfo()
+```
+
