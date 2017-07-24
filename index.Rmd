@@ -28,6 +28,10 @@ knitr::opts_chunk$set(echo = FALSE)
 </a>
 </div>
 
+<div class="notes">
+How many of you think psychologists need to overcome physics envy?
+</div>
+
 <!-- ## Beyond physics envy -->
 
 <!-- <div class="centered"> -->
@@ -36,10 +40,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Psychology is harder than physics
 
+<div class="notes">
+Well, you don't because psychology is harder than physics.
+</div>
+
 ---
 
 <div class="centered">
 <img src="img/psych-harder-1.jpg" width=800px/>
+</div>
+
+<div class="notes">
+Physicists are rightly proud that they can predict precisely what will happen if we put a mass on an inclined plane in a gravitational field.
 </div>
 
 ---
@@ -48,10 +60,21 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="img/psych-harder-2.jpg" width=800px/>
 </div>
 
+<div class="notes">
+But if we change the mass to a mouse, what happens?
+Our predictions go out the window. Why?
+Because there are too many variables...
+Psychology is orders of magnitude harder than physics.
+</div>
+
 ---
 
 <div class="centered">
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=550px>
+</div>
+
+<div class="notes">
+Now we should be envious of physicists' big toys like the Hubble Space telescope.
 </div>
 
 ---
@@ -63,13 +86,16 @@ knitr::opts_chunk$set(echo = FALSE)
 </div>
 
 <div class="notes">
-The Hubble Ultra Deep Field. Taken over 3.5 months in 2003-04. Contains an estimated 10,000 galaxies, and because time and space collapse at astronomical distances, looks back ~13 billion years, or 400-800m years after the big bang.
+The Hubble allows us to look back into the history of our universe, some ~13 billion years ago.
 </div>
-
 
 ## What would a data observatory for human behavior look like?
 
----
+<div class="notes">
+What would a similar observational instrument for peering deep into human behavior look like? I think that we have some idea already.
+</div>
+
+## Data from diverse domains
 
 <div class="centered">
 <a href="http://www.thehumanproject.org">
@@ -77,9 +103,7 @@ The Hubble Ultra Deep Field. Taken over 3.5 months in 2003-04. Contains an estim
 </a>
 </div>
 
-<!-- <https://www.nytimes.com/2017/06/04/nyregion/human-project-new-york-city-study.html> -->
-
-## Open Humans
+## Measures linked across people
 
 <div class="centered">
 <a href="http://www.openhumans.org">
@@ -87,7 +111,7 @@ The Hubble Ultra Deep Field. Taken over 3.5 months in 2003-04. Contains an estim
 </a>
 </div>
 
-## [Neurosynth.org](http://neurosynth.org)
+## Data visualization, analysis
 
 <div class="centered">
 <video width="720" height="450" controls>
@@ -96,7 +120,7 @@ Your browser does not support the video tag.
 </video>
 </div>
 
-## [Social Data Explorer](http://www.socialexplorer.com/)
+---
 
 <div class="centered">
 <a href="http://www.socialexplorer.com/">
@@ -106,7 +130,7 @@ Your browser does not support the video tag.
 </a>
 </div>
 
-## [WordBank](http://wordbank.stanford.edu)
+---
 
 <div class="centered">
 <video width="720" height="450" controls>
@@ -115,7 +139,7 @@ Your browser does not support the video tag.
 </video>
 </div>
 
-## [National Database for Autism Research (NDAR)](https://ndar.nih.gov)
+## Search, filtering by personal characteristics
 
 <div class="centered">
 <a href="http://ndar.nih.gov">
@@ -123,14 +147,30 @@ Your browser does not support the video tag.
 </a>
 </div>
 
-## [Databrary.org](http://databrary.org)
+## Self/active curation
 
 <div class="centered">
-<video width="720" height="450" controls>
-  <source src="mov/databrary-vol-8-nih-incl-rpt.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<img src="img/osf-io.jpg" height=480px/>
 </div>
+
+## Consistent, clear sharing permissions structure
+
+<div class="centered">
+<img src="img/databrary.splash.jpg" height=480px>
+</div>
+
+## The state of sharing
+
+| Example | Multi-measure | Indiv link/search | Visualize | Self-curate | Permissions |
+|---------|---------------|------------|-----------|-------|----|
+| Databrary   | &#x2714; | &#x2714; | tabular | &#x2714; |&#x2714; |
+| Human Proj  | &#x2714; | &#x2714; | ? | ? | &#x2714; |
+| ICPSR       | &#x2714; | ? | &#x2714; | ? | &#x2714; |
+| Neurosynth  | fMRI BOLD | | &#x2714; | public | 
+| OpenNeuro   | &#x2714; |   ?       | &#x2714; | &#x2714; | public |
+| Open Humans | &#x2714; | &#x2714; | ? | ? |  &#x2714; |
+| OSF         | &#x2714; |          | | &#x2714; | public |
+| WordBank    | M-CDI | group metadata | &#x2714; | ? | public |
 
 ## Barriers
 
@@ -138,16 +178,20 @@ Your browser does not support the video tag.
 <img src="http://www.sowoll.com/images/5(3).jpg" height=475px>
 </div>
 
-<!-- --- -->
+---
 
-<!-- <div class="centered"> -->
-<!-- <img src="http://www.apa.org/Images/2014-07-datapoint-chart_tcm7-172806.jpg" width=800px> -->
-<!-- </div> -->
+<div class="centered">
+<img src="http://www.apa.org/Images/2014-07-datapoint-chart_tcm7-172806.jpg" width=800px>
+</div>
 
 ---
 
 <div class="centered">
 <img src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAW9AAAAJDRhMTc5OGYyLWE4MzItNDNlOS1hMDJjLTllOGU2ZTNiNmMzNg.jpg" height=450px>
+</div>
+
+<div class="notes">
+As a result our work, results, and methods are siloed.
 </div>
 
 ---
@@ -156,16 +200,28 @@ Your browser does not support the video tag.
 <img src="http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg" height=450px>
 </div>
 
+<div class="notes">
+And it often seems like we are the proverbial blind men examining the elephant.
+</div>
+
 ---
 
 <div class="centered">
 <img src="https://www.catholic.com/sites/default/files/styles/full_content_width/public/content/magazine-article-online-edition/main-image/Gollum.jpg" height=550px>
 </div>
 
+<div class="notes">
+We're often like like Gollum, obsessed with possessing our "precious" methods or results.
+</div>
+
 ---
 
 <div class="centered">
 <img src="img/bricks-mortar.png" height=550px>
+</div>
+
+<div class="notes">
+And on a more mundane level, we could choose and adopt common metadata items and formats that would allow us to link findings across studies. But we haven't yet.
 </div>
 
 ## Let's build a Databservatory for human behavior
@@ -175,6 +231,17 @@ Your browser does not support the video tag.
 <div class="centered">
 <img src="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg" height=500px>
 </div>
+
+## A databservatory should...
+
+- Data across studies, measures
+- Link across group characteristics, individuals
+- Searching & filtering by individual characteristics, tasks
+- Web-based data analysis, visualization; open API
+- Consistent framework for ethical data sharing
+- Aggregate, clone, track provenance
+- Linked to publications
+- ...
 
 ## Acknowledgments
 
