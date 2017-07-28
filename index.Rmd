@@ -234,19 +234,22 @@ And on a more mundane level, we could choose and adopt common metadata items and
 
 ## A databservatory should...
 
-- Data across studies, measures
+- Link data across studies, measures
 - Link across group characteristics, individuals
-- Searching & filtering by individual characteristics, tasks
-- Web-based data analysis, visualization; open API
-- Consistent framework for ethical data sharing
-- Aggregate, clone, track provenance
-- Linked to publications
+- Enable searching & filtering by individual characteristics, tasks
+- Support web-based data analysis, visualization; open API
+- Implement a consistent framework for ethical data sharing
+- Enable data aggregation, cloning, provenance tracking
+- Support self/active curation
+- Link to publications
 - ...
 
 ## Acknowledgments
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/NSF_Logo.PNG" height=250px>
 <img src="https://science.nichd.nih.gov/confluence/download/attachments/34472103/NICHD-vertical-2-color.png?version=1&modificationDate=1477410070000&api=v2" height=250px>
+</br>
+<img src="https://sloan.org/storage/app/media/Logos/Sloan-Logo-stacked-black-web.png" height-250px>
 
 <div class="notes">
 </div>
