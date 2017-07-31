@@ -13,7 +13,7 @@ output:
     reveal_options:
       slideNumber: true
       previewLinks: false
-      center: false
+      center: true
 ---
 
 ```{r setup, include=FALSE}
@@ -95,7 +95,7 @@ The Hubble allows us to look back into the history of our universe, some ~13 bil
 What would a similar observational instrument for peering deep into human behavior look like? I think that we have some idea already.
 </div>
 
-## Data from diverse domains
+## Combine data from diverse domains
 
 <div class="centered">
 <a href="http://www.thehumanproject.org">
@@ -103,7 +103,7 @@ What would a similar observational instrument for peering deep into human behavi
 </a>
 </div>
 
-## Measures linked across people
+## Link measures across people
 
 <div class="centered">
 <a href="http://www.openhumans.org">
@@ -111,7 +111,7 @@ What would a similar observational instrument for peering deep into human behavi
 </a>
 </div>
 
-## Data visualization, analysis
+## Enable web-based data visualization, analysis
 
 <div class="centered">
 <video width="720" height="450" controls>
@@ -139,7 +139,7 @@ Your browser does not support the video tag.
 </video>
 </div>
 
-## Search, filtering by personal characteristics
+## Support search, filtering by personal characteristics
 
 <div class="centered">
 <a href="http://ndar.nih.gov">
@@ -147,19 +147,19 @@ Your browser does not support the video tag.
 </a>
 </div>
 
-## Self/active curation
+## Encourage self/active curation of data, materials
 
 <div class="centered">
 <img src="img/osf-io.jpg" height=480px/>
 </div>
 
-## Consistent, clear sharing permissions structure
+## Provide consistent, clear sharing permissions structure
 
 <div class="centered">
 <img src="img/databrary.splash.jpg" height=480px>
 </div>
 
-## The state of sharing
+## Progress
 
 | Example | Multi-measure | Indiv link/search | Visualize | Self-curate | Permissions |
 |---------|---------------|------------|-----------|-------|----|
@@ -176,12 +176,6 @@ Your browser does not support the video tag.
 
 <div class="centered">
 <img src="http://www.sowoll.com/images/5(3).jpg" height=475px>
-</div>
-
----
-
-<div class="centered">
-<img src="http://www.apa.org/Images/2014-07-datapoint-chart_tcm7-172806.jpg" width=800px>
 </div>
 
 ---
@@ -214,7 +208,7 @@ And it often seems like we are the proverbial blind men examining the elephant.
 We're often like like Gollum, obsessed with possessing our "precious" methods or results.
 </div>
 
----
+## Metadata as "mortar"
 
 <div class="centered">
 <img src="img/bricks-mortar.png" height=550px>
@@ -226,13 +220,11 @@ And on a more mundane level, we could choose and adopt common metadata items and
 
 ## Let's build a Databservatory for human behavior
 
----
-
 <div class="centered">
-<img src="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg" height=500px>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=550px>
 </div>
 
-## A databservatory should...
+## It should...
 
 - Link data across studies, measures
 - Link across group characteristics, individuals
@@ -243,6 +235,15 @@ And on a more mundane level, we could choose and adopt common metadata items and
 - Support self/active curation
 - Link to publications
 - ...
+
+---
+
+<div class="centered">
+<img src="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg" height=500px>
+
+@rogilmore</br>
+[gilmore-lab.github.io](http://gilmore-lab.github.io)
+</div>
 
 ## Acknowledgments
 
