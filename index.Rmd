@@ -7,7 +7,7 @@ output:
     self_contained: false
     lib_dir: libs
     incremental: false
-    theme: serif
+    theme: default
     transition: none
     reveal_plugins: ["notes", "zoom"]
     reveal_options:
@@ -166,7 +166,7 @@ Your browser does not support the video tag.
 | Databrary   | &#x2714; | &#x2714; | tabular | &#x2714; |&#x2714; |
 | Human Proj  | &#x2714; | &#x2714; | ? | ? | &#x2714; |
 | ICPSR       | &#x2714; | ? | &#x2714; | ? | &#x2714; |
-| Neurosynth  | fMRI BOLD | | &#x2714; | public | 
+| Neurosynth  | fMRI BOLD | group data | &#x2714; | public | NA |
 | OpenNeuro   | &#x2714; |   ?       | &#x2714; | &#x2714; | public |
 | Open Humans | &#x2714; | &#x2714; | ? | ? |  &#x2714; |
 | OSF         | &#x2714; |          | | &#x2714; | public |
@@ -181,7 +181,7 @@ Your browser does not support the video tag.
 ---
 
 <div class="centered">
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAW9AAAAJDRhMTc5OGYyLWE4MzItNDNlOS1hMDJjLTllOGU2ZTNiNmMzNg.jpg" height=450px>
+<img src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAW9AAAAJDRhMTc5OGYyLWE4MzItNDNlOS1hMDJjLTllOGU2ZTNiNmMzNg.jpg" height=550px>
 </div>
 
 <div class="notes">
@@ -191,7 +191,7 @@ As a result our work, results, and methods are siloed.
 ---
 
 <div class="centered">
-<img src="http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg" height=450px>
+<img src="http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg" height=550px>
 </div>
 
 <div class="notes">
@@ -221,7 +221,7 @@ And on a more mundane level, we could choose and adopt common metadata items and
 ## Let's build a Databservatory for human behavior
 
 <div class="centered">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=550px>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=500px>
 </div>
 
 ## It should...
@@ -242,7 +242,7 @@ And on a more mundane level, we could choose and adopt common metadata items and
 <img src="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg" height=500px>
 
 @rogilmore</br>
-[gilmore-lab.github.io](http://gilmore-lab.github.io)
+[gilmore-lab.github.io/sips-2017-databservatory](http://gilmore-lab.github.io/sips-2017-databservatory)
 </div>
 
 ## Acknowledgments
