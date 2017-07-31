@@ -226,11 +226,12 @@ And on a more mundane level, we could choose and adopt common metadata items and
 
 ## It should...
 
+- Store & share data & materials
 - Link data across studies, measures
 - Link across group characteristics, individuals
-- Enable searching & filtering by individual characteristics, tasks
+- Enable searching & filtering by individual characteristics, tasks, settings
 - Support web-based data analysis, visualization; open API
-- Implement a consistent framework for ethical data sharing
+- Provide consistent framework for ethical data sharing
 - Enable data aggregation, cloning, provenance tracking
 - Support self/active curation
 - Link to publications
