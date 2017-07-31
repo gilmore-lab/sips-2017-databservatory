@@ -258,7 +258,7 @@ And on a more mundane level, we could choose and adopt common metadata items and
 
 ## Stack
 
-This talk was produced on `r Sys.Date()` in [RStudio 1.0.143](http://rstudio.com) using R Markdown and the reveal.JS framework.
+This talk was produced on `r Sys.time()` in [RStudio 1.0.143](http://rstudio.com) using R Markdown and the reveal.JS framework.
 The code and materials used to generate the slides may be found at <https://github.com/gilmore-lab/sips-2017-databservatory/>. 
 Information about the R Session that produced the code is as follows:
 
@@ -267,4 +267,3 @@ Information about the R Session that produced the code is as follows:
 ```{r session-info}
 sessionInfo()
 ```
-
